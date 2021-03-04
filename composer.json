@@ -1,5 +1,5 @@
 {
-  "name": "adtech-billing-composer/security",
+  "name": "adtech-more-composer/security",
   "description": "This package is for security purpose only.",
   "type": "library",
   "require": {
