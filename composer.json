@@ -1,0 +1,27 @@
+{
+  "name": "adtech-billing-composer/security",
+  "description": "This package is for security purpose only.",
+  "type": "library",
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ruslan Kulakov",
+      "email": "grauwolf86@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "RandomPassword\\": "src/Core/"
+    },
+    "files": [
+      "src/Core/index.php"
+    ]
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  }
+}
